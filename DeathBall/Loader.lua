@@ -1,4 +1,6 @@
+
 local g = getgenv()
+g._authenticated = true
 if not g._authenticated or g._launched then return end
 g._launched = true
 
